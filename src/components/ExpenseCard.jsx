@@ -14,7 +14,7 @@ const ExpenseCard = ({data,no}) => {
   icon: 'success',
   confirmButtonText: 'ok'
 })
-localStorage.setItem("expense",JSON.stringify(new_expenses))
+localStorage.setItem("expense",JSON.stringify(new_exp))
 
 
     }
